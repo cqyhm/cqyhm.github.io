@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>JavaWeb�����γ�ϵ��ǰ�� | 七七阳光</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="#JavaWeb����ϵ�н̳�  ##00.�γ̼�����γ���Ҫ����Լ���û��ʲô���������ѿ������Ų��ܿ�����ĿΪĿ��Ļ����γ̡� ����ϵͳ����֪ʶ���������֪ʶ�����ݿ����֪ʶ�Ǳ���Ҫ���յġ� ѧϰ������ʵ�������� ��Ӧ�ò��ܼǵ�ס�� ʹ�ñ��̳�ע����� �������ķֱ�����:">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaWeb�����γ�ϵ��ǰ��">
+<meta property="og:url" content="http://cqyhm.github.io/2018/02/11/JavaWeb基础课程系列前传/index.html">
+<meta property="og:site_name" content="七七阳光">
+<meta property="og:description" content="#JavaWeb����ϵ�н̳�  ##00.�γ̼�����γ���Ҫ����Լ���û��ʲô���������ѿ������Ų��ܿ�����ĿΪĿ��Ļ����γ̡� ����ϵͳ����֪ʶ���������֪ʶ�����ݿ����֪ʶ�Ǳ���Ҫ���յġ� ѧϰ������ʵ�������� ��Ӧ�ò��ܼǵ�ס�� ʹ�ñ��̳�ע����� �������ķֱ�����:">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-02-11T05:28:04.545Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JavaWeb�����γ�ϵ��ǰ��">
+<meta name="twitter:description" content="#JavaWeb����ϵ�н̳�  ##00.�γ̼�����γ���Ҫ����Լ���û��ʲô���������ѿ������Ų��ܿ�����ĿΪĿ��Ļ����γ̡� ����ϵͳ����֪ʶ���������֪ʶ�����ݿ����֪ʶ�Ǳ���Ҫ���յġ� ѧϰ������ʵ�������� ��Ӧ�ò��ܼǵ�ס�� ʹ�ñ��̳�ע����� �������ķֱ�����:">
+    
+
+    
+        <link rel="alternate" href="/" title="七七阳光" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">主页</a>
+                                </li>
+                            
+                                        
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    未分类
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-JavaWeb基础课程系列前传" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        JavaWeb�����γ�ϵ��ǰ��
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2018/02/11/JavaWeb基础课程系列前传/" class="article-date">
+            <time datetime="2018-02-11T05:27:37.000Z" itemprop="datePublished">2018-02-11</time>
+        </a>
+    </div>
+
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p>#JavaWeb����ϵ�н̳� </p>
+<p>##00.�γ̼��<br>���γ���Ҫ����Լ���û��ʲô���������ѿ������Ų��ܿ�����ĿΪĿ��Ļ����γ̡�</p>
+<p>����ϵͳ����֪ʶ���������֪ʶ�����ݿ����֪ʶ�Ǳ���Ҫ���յġ�</p>
+<p>ѧϰ������ʵ��������</p>
+<p>��Ӧ�ò��ܼǵ�ס��</p>
+<p>ʹ�ñ��̳�ע�����</p>
+<p>�������ķֱ�����: 1366*768</p>
+<p>�������̫С�����⣬����ͨ������Ӱ����߰����ղ��������ţ�����ʱ�����������300%���ɡ�</p>
+<p>���̳����õ��Ĺ���ͳһ�ŵ����ٶ�������</p>
+<p>���̵̳��ĵ�ͳһ�ŵ�git�������ϣ�gitee.com</p>
+<h2 id="01-����������"><a href="#01-����������" class="headerlink" title="01.����������"></a>01.����������</h2><p>����:ֻ����1̨����,Ҫ��ɱ�������̨���Ի��߶�̨���Բ�����ɵ����顣���磺</p>
+<p>1.�о�win10��linux����ϵͳ��δ����ļ���</p>
+<p>2.���ͨ��windows����linux���mysql��������</p>
+<p>�ȵȡ�</p>
+<p>VirtualBox5.2.6��vmware14��hyper-v(win10)<br>�����ģ��ĵ��ԣ�����̫�����Ͽ��Խ��м�������ʵ������ͬ�Ĺ��ܡ����漸�����еĲ�������������в�����<br>������Ҫ��VirtualBoxΪ��.</p>
+<h3 id="01-1-����"><a href="#01-1-����" class="headerlink" title="01.1.����"></a>01.1.����</h3><p><a href="https://www.virtualbox.org" target="_blank" rel="noopener">https://www.virtualbox.org</a></p>
+<h3 id="01-2-��װ"><a href="#01-2-��װ" class="headerlink" title="01.2.��װ"></a>01.2.��װ</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">01.2.1.��װ����������İ�װ���ƣ���Ҫע�������ʹ�ù���ԱȨ�ް�װ��</span><br><span class="line"></span><br><span class="line">01.2.2.��װ��������ʾ��װ�����豸������Ҳ���밲װ��</span><br><span class="line"></span><br><span class="line">01.2.3.��װ�����е�·��ѡ��:ѡ���·������ȥ��·���еĿո�����ģ��м��мǡ�</span><br></pre></td></tr></table></figure>
+<h3 id="01-3-����"><a href="#01-3-����" class="headerlink" title="01.3.����"></a>01.3.����</h3><blockquote>
+<h4 id="01-3-1-��װ��չ����"><a href="#01-3-1-��װ��չ����" class="headerlink" title="01.3.1.��װ��չ����"></a>01.3.1.��װ��չ����</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; ��Ҫ֧��USB2.0��USB3.0</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>&gt;</p>
+<blockquote>
+<h4 id="01-3-2-��װ����ϵͳ"><a href="#01-3-2-��װ����ϵͳ" class="headerlink" title="01.3.2.��װ����ϵͳ"></a>01.3.2.��װ����ϵͳ</h4><p>��������������а�װĿǰ�����Ĳ���ϵͳ</p>
+<h4 id="01-3-3-��װ��o����"><a href="#01-3-3-��װ��o����" class="headerlink" title="01.3.3.��װ��ǿ����"></a>01.3.3.��װ��ǿ����</h4><p>��������ԵĹ������������̡�ֻ��Ҫִ�й����еĳ��򣬾��ܰ�װ����Ҫ�����þ�����ʾ�Զ����ţ�����һЩ��������</p>
+<h4 id="01-3-4-��˷粻�ܱ�Ӧ�o����ռ"><a href="#01-3-4-��˷粻�ܱ�Ӧ�o����ռ" class="headerlink" title="01.3.4.��˷粻�ܱ�Ӧ�ó����ռ"></a>01.3.4.��˷粻�ܱ�Ӧ�ó����ռ</h4><p>���½�-&gt;ѡ������ͼ����Ҽ�-&gt;ѡ��¼���豸-&gt;ѡ����˷�˫��–&gt;�߼�-&gt;����Ӧ�ó����ռ���Ƹ��豸</p>
+<p>������������������аѸ�ѡ������Ϊ��ѡ��</p>
+<h4 id="01-3-5-�����������"><a href="#01-3-5-�����������" class="headerlink" title="01.3.5.�����������"></a>01.3.5.�����������</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&gt; �������ӷ�ʽ��</span><br><span class="line">&gt; 1.�����ַת��(NAT)</span><br><span class="line">&gt; 	������Կ��Է����ⲿ�ĵ��ԡ������ⲿ�ĵ��Բ��ܷ����������ֻ�ܵ�����ʡ�</span><br><span class="line">&gt; 2.�Ž�����</span><br><span class="line">&gt; 	������Ժ��ⲿ�ĵ��Կ��Ի�����ʡ�ֻ˫����ʵġ�</span><br><span class="line">&gt; ע��:</span><br><span class="line">&gt; 	1.������������κ�ʱ�򶼿������ã����������������Ѿ���������Ҳ�����޸����á�</span><br><span class="line">&gt; 	2.�Ž�ʱѡ����������Ҫѡ����Ҫ����������������������Բ���������</span><br><span class="line">&gt; 3.������Ժ�����(����)ֱ�ӵ���·��ͨ</span><br><span class="line">&gt;   һ������Ϊ�Ž����������ǿ��Ի�ͨ�ģ����඼�ܹ�ping��ͨ��������ʱ����ܻ�ping��ͨ����Ҫ���ܵ�ԭ���ǣ�������Եķ���ǽ�򿪻����������Եķ���ǽ���ˡ�</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>&gt;</p>
+<blockquote>
+<h4 id="01-3-5-������Ե�ת��"><a href="#01-3-5-������Ե�ת��" class="headerlink" title="01.3.5.������Ե�ת��"></a>01.3.5.������Ե�ת��</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; ����ͨ������������Զ�Ӧ�������ļ�����ע�������˿��������������ԡ�</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>##02.����ϵͳ����֪ʶ</p>
+<p>###02.1.��������ϵͳ</p>
+<ol>
+<li>unixϵ��os x��Solaris��HPUX��IBM-OS/2</li>
+<li>linuxϵ��ubuntu16��redhat��centos������</li>
+<li>΢��ϵ��dos��win31��winxp��win7��win10</li>
+</ol>
+<p>###02.2.�����н���</p>
+<p>��������ļ�(file)���ļ���/Ŀ¼/·��(folder,path,directory)���̷�(disk)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">linuxҲ���ļ�,�ļ�/Ŀ¼/·��,��Ŀ¼</span><br><span class="line"></span><br><span class="line">window·���е�б����\��linux�����б����/��</span><br><span class="line"></span><br><span class="line">window����c:,d:�ȣ�linux����û�У�ֻ�и�Ŀ¼/��root��������linuxֻ��1����,ʡ�Ե��̷���</span><br><span class="line"></span><br><span class="line">windows�̷����л���ֱ�������ð�ŵ��̷��س���</span><br><span class="line">window�ļ���·����ʾ�� d:\temp\readme.txt</span><br><span class="line">linux�ļ��ı�ʾ: 	   /temp/readme.txt</span><br><span class="line">��ǰĿ¼��Ĭ��Ŀ¼/ȱʡĿ¼</span><br></pre></td></tr></table></figure>
+<p>�ļ����ͣ�windows���ݺ�׺��ȷ����linux�������ݺ�Ȩ�����ж�</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">�ж��ļ��Ƿ���ִ���ļ�</span><br><span class="line">windows�Ǹ��ݺ�׺�����������жϵġ�.exe,.com,.cmd,.bat</span><br><span class="line">linux�Ǹ���Ȩ���жϺ��ļ����ݡ�</span><br><span class="line"></span><br><span class="line">window�µĳ����ļ�����:</span><br><span class="line">�ı��ļ���Դ���롢�������ļ��������ü��±���ȷ�����ļ�</span><br><span class="line">	������notepad�򿪡�.txt,.md,.ini��.cmd,.bat,.java,.c,.cpp,.h��.js,.html</span><br><span class="line">	Typora ��.md����SublimeText,UltraEdit,VSCode,notepad++</span><br><span class="line">*��ִ���ļ���.exe,.com,.cmd,.bat</span><br><span class="line">*�������ļ���.cmd,.bat</span><br><span class="line">office�ļ���������wps����msoffice���ߴ򿪵��ļ�</span><br><span class="line">	word�ļ���.doc,docx,.wps��</span><br><span class="line">	excel�ļ���.xls,.xlsx,.et</span><br><span class="line">	ppt�ļ���.ppt,.pptx,.dps</span><br><span class="line">��Ƶ�ļ���.avi,.mp4,.rm,rmvb,.wmv,.dat,.mov,.3gp,.swf,.flv��</span><br><span class="line">��Ƶ�ļ���.wav,.mp3,.mid</span><br><span class="line">ͼƬ�ļ���.bmp,.jpg,jpeg,.png,.psd��2345��ͼ����ACDSee��</span><br><span class="line">�������ļ�: .pdf ��FoxitReader��</span><br><span class="line">ÿ���ļ����Ͷ�����Ӧ�Ĵ򿪹��ߣ�ֻ�п�ִ�г������ɲ���ϵͳֱ�Ӵ򿪵ġ�</span><br><span class="line">ϣ�����ܹ�����������Щ�ļ��Ĵ򿪹��ߡ�</span><br></pre></td></tr></table></figure>
+<p>###03.3.��������(17��)</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br></pre></td><td class="code"><pre><span class="line">����ĸ�ʽ��</span><br><span class="line">	1.  ���������</span><br><span class="line">	2.  ���������  ѡ��(options)</span><br><span class="line">	3.  ���������  ����(parameter)</span><br><span class="line">	4.  ���������  ѡ��  ����</span><br><span class="line">	ע�����</span><br><span class="line"><span class="meta">	&gt;</span>����������ܹ�ִ������</span><br><span class="line"><span class="meta">	&gt;</span>���������ѡ��֮������пո�</span><br><span class="line"><span class="meta">	&gt;</span>ѡ����û��˳��ģ����ǲ�����˳��ġ�</span><br><span class="line"><span class="meta">	&gt;</span>�������ơ�������ѡ���������ȫ�ǵķ��š�</span><br><span class="line"><span class="meta">	&gt;</span>����ϵͳ���ڲ�����(û�ж�Ӧ�ļ���)</span><br><span class="line"><span class="meta">	&gt;</span>�ⲿ����ж�Ӧ�ļ������Լ������Ŀ�ִ�г������������</span><br><span class="line">�ļ��в�����</span><br><span class="line">cd ��ʾ��ǰĿ¼���߸ı䵱ǰĿ¼</span><br><span class="line"><span class="meta">	#</span>��ʾ��ǰĿ¼</span><br><span class="line">	cd</span><br><span class="line"><span class="meta">	#</span>��ʾ������÷� ��ѡ�</span><br><span class="line">	cd /?  </span><br><span class="line"><span class="meta">	#</span>�ı䵱ǰĿ¼����һ��Ŀ¼(..��ʾ��һ��Ŀ¼, .��ǰĿ¼)</span><br><span class="line">	cd ..</span><br><span class="line"><span class="meta">	#</span>�ı䵱ǰ��Ŀ¼��</span><br><span class="line">	cd temp</span><br><span class="line"><span class="meta">	#</span>����·��</span><br><span class="line">	cd d:\abc\other</span><br><span class="line">	cd d:\temp</span><br><span class="line"><span class="meta">	#</span>���·��</span><br><span class="line">	cd ..\abc\other</span><br><span class="line">dir ��ʾĿ¼�е��ļ�������Ŀ¼�б�</span><br><span class="line"><span class="meta">	#</span>��ʾ��ǰ��Ŀ¼�µ��ļ������ļ��б�</span><br><span class="line">	dir </span><br><span class="line"><span class="meta">	#</span>��ʾָ��Ŀ¼�µ��ļ��������ļ����б�</span><br><span class="line">	dir d:\abc</span><br><span class="line">mkdir ����Ŀ¼</span><br><span class="line"><span class="meta">	#</span>��ǰĿ¼�´����ļ���</span><br><span class="line">	mkdir java</span><br><span class="line"><span class="meta">	#</span>��ָ��Ŀ¼�´����ļ���</span><br><span class="line">	mkdir d:\abc\java</span><br><span class="line">rd    ɾ��Ŀ¼</span><br><span class="line">rmdir ɾ��Ŀ¼</span><br><span class="line"><span class="meta">#</span>�ļ�����</span><br><span class="line">xcopy  �����ļ���Ŀ¼��</span><br><span class="line">copy �����ļ�</span><br><span class="line">	copy Դ�ļ�  Ŀ¼·��/Ŀ���ļ�</span><br><span class="line"><span class="meta">	#</span>�����ļ���readme.md������ļ������ʾ</span><br><span class="line">	copy readme.txt readme.md</span><br><span class="line"><span class="meta">	#</span>�����ļ���readme.md������Ŀ���ļ�������񣬶�����ʾ</span><br><span class="line">	copy /y readme.txt readme.md</span><br><span class="line">del	ɾ���ļ�</span><br><span class="line">	del �ļ�������</span><br><span class="line">	del �ļ���ͨ���(*:��ʾ�����ַ�,?:��ʾ�����ַ�)</span><br><span class="line"><span class="meta">	#</span>ɾ����ǰĿ¼�µ����е��ļ�</span><br><span class="line">	del *.txt</span><br><span class="line">erase ɾ���ļ�</span><br><span class="line">touch ����1�����ļ�(��Щ�汾û�и�����)</span><br><span class="line">	 touch �ļ�����</span><br><span class="line">more��type �鿴�ļ�������</span><br><span class="line">	more �ļ�����</span><br><span class="line">	type �ļ�����</span><br><span class="line">mklink ������ݷ�ʽ��</span><br><span class="line"><span class="meta">	#</span>�ڵ�ǰ�ļ����´�����ݷ�ʽtest.txt,������d:\abc\java\test.txt</span><br><span class="line">	mklink test.txt d:\abc\java\test.txt</span><br><span class="line">subst  ��ĳ���ļ���ӳ��Ϊ1���̷�</span><br><span class="line"><span class="meta">	#</span>�����̷�Z�����ļ���d:\temp</span><br><span class="line">	subst z:  d:\temp</span><br><span class="line"><span class="meta">	#</span>�鿴�������̷����ļ���</span><br><span class="line">	subst</span><br><span class="line"><span class="meta">	#</span>ɾ���������̷�</span><br><span class="line">	subst z: /D</span><br><span class="line">	�����������ʱ��Ч�ģ��´���ϵͳ�̷���û�ˡ������Ҫ����ӳ�䡣��Ҫ����ִ��������</span><br><span class="line">cls  �����Ļ ͬ����clear </span><br><span class="line">exit �˳���ǰcmd����</span><br><span class="line">help ��Щ�汾û�и�����</span><br><span class="line">�ۺϵ����ӣ�</span><br><span class="line">��d�̸�Ŀ¼���½�һ���ļ�test.bat,��������</span><br><span class="line">  rmdir abc /S /Q</span><br><span class="line">  rmdir temp /S /Q</span><br><span class="line">  mkdir dir1</span><br><span class="line">  mkdir dir2</span><br><span class="line">Ȼ��ִ�и��ļ�������test�س���</span><br><span class="line">���磺</span><br><span class="line">	ɾ����ʱ�ļ�</span><br><span class="line">	�½�����Ŀ¼</span><br><span class="line">	�������</span><br><span class="line">	�Ѵ�������1���ļ�</span><br><span class="line">����ʹ�������ļ�����ɡ�</span><br></pre></td></tr></table></figure>
+<p>###03.4.����ϵͳ����</p>
+<p>windows����ϵͳ���������ö��Ǵ���ע����С�</p>
+<p>ע������佨����ֱ�ӱ༭ע����������Ϥ������¿���ֱ��ʹ�ñ༭�޸�ע���</p>
+<p>regedit</p>
+<p>��������</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">����-&gt;����-&gt;�߼�ϵͳ����-&gt;�߼�-&gt;����������ͨ��ͼ�ν����޸�</span><br><span class="line"></span><br><span class="line">���������ƣ���java�еı���������һ���ġ���Щ�����ǲ���ϵͳ�ڲ��õġ�PATH</span><br><span class="line"></span><br><span class="line">�����Ĳ鿴:  </span><br><span class="line">		#�鿴��������</span><br><span class="line">		echo %PATH%</span><br><span class="line">		#�鿴��������</span><br><span class="line">		set path</span><br><span class="line">		#�鿴����,����û�и�����</span><br><span class="line">		env</span><br><span class="line">���õı���������ϵͳ�ṩ����������;�ı�����</span><br><span class="line"></span><br><span class="line">	PATH��������ִ���ⲿ����ʱ������notepad����javaʱ�����ҵ�·��������ָ�����·����·����·��֮���÷ֺŸ��linuxʹ�ò�����ð�Ÿ����ִ�е��ⲿ������path�����õ�Ŀ¼�����Ҳ�����ʱ��</span><br><span class="line">�ͱ���&apos;xxx&apos; �����ڲ����ⲿ���Ҳ���ǿ����еĳ�����������ļ���</span><br><span class="line"></span><br><span class="line">	PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\</span><br><span class="line"></span><br><span class="line">	pathȱʡ������ǧ��Ҫɾ��������ᵼ�ºܶ������޷�ִ�У���ʾ�Ҳ�����</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">echo �鿴��������,�������:env,set</span><br><span class="line">set  ���û���������ʱ��Ч��ֻ�ڵ�ǰ������Ч������ر�֮���ٴδ򿪴��ڣ���������ʧ�ˣ�</span><br><span class="line">	set ��������=������ȡֵ</span><br><span class="line">setx ���û�������������Ч���ڵ�ǰ������Ч�������������µĴ��ڲ���Ч��</span><br><span class="line">	setx �������� ������ֵ</span><br><span class="line">	#���õ��û�������ֻ���ƶ����û���¼����Ч��</span><br><span class="line">	setx JAVA_HOME d:\jdk  </span><br><span class="line">	#���õ�ϵͳ����(�����û���¼����Ч��)</span><br><span class="line">	setx M2_HOME d:\maven3.5.2 /M</span><br></pre></td></tr></table></figure>
+<p>##03.�������֪ʶ</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span> 0.ip��ַ��dhcp��MAC</span><br><span class="line"><span class="meta">&gt;</span> ipv4��ipv6</span><br><span class="line"><span class="meta">&gt;</span> 	IPv4�ĵ�ַλ��Ϊ32λ��Ҳ���������2��32�η��ĵ��Կ�������Internet�ϣ���ʮ�������ڻ����������չ��IPλַ����������������ʹ��IPλַ�ķ��������ϸ񣬸���������ʾȫ��IPv4λַ������2005��2008���ȫ�����ꡣ</span><br><span class="line"><span class="meta">&gt;</span> 	IPv6����128λ��ַ���ȣ��������Բ������Ƶ��ṩ��ַ�������ط�������IPv6ʵ�ʿɷ���ĵ�ַ�����������ÿƽ����������Կɷ���1000�����ַ����IPv6����ƹ����г���һ�����ݵؽ���˵�ַ��ȱ�������⣬����������IPv4�н�����õ��������⣬��Ҫ�ж˵���IP���ӡ�����������QoS������ȫ�ԡ��ಥ���ƶ��ԡ����弴�õ�</span><br><span class="line"><span class="meta">&gt;</span> 	DHCP��Dynamic Host Configuration Protocol����̬��������Э�飩��һ��������������Э�飬ʹ��UDPЭ�鹤���� ��Ҫ��������;�����ڲ�������������Ӧ���Զ�����IP��ַ�����û������ڲ��������Ա��Ϊ�����м���������������ֶΣ���RFC 2131������ϸ��������DHCP��3���˿ڣ�����UDP67��UDP68Ϊ������DHCP����˿ڣ��ֱ���ΪDHCP Server��DHCP Client�ķ���˿ڣ�546�Ŷ˿�����DHCPv6 Client����������DHCPv4����ΪDHCP failover����������Ҫ�ر���ķ���DHCP failover����������˫���ȱ����ġ�</span><br><span class="line"><span class="meta">&gt;</span> 1.��Ȿ��</span><br><span class="line"><span class="meta">&gt;</span> #�鿴������ip��ַ���</span><br><span class="line"><span class="meta">&gt;</span> windows: ipconfig</span><br><span class="line"><span class="meta">&gt;</span> linux:   ifconfig �� ipaddr</span><br><span class="line"><span class="meta">&gt;</span> #�鿴�����˿�ʹ�����</span><br><span class="line"><span class="meta">&gt;</span> netstat  -ano</span><br><span class="line"><span class="meta">&gt;</span> #windows�²鿴����</span><br><span class="line"><span class="meta">&gt;</span> tasklist /?</span><br><span class="line"><span class="meta">&gt;</span> tasklist | grep cmd</span><br><span class="line"><span class="meta">&gt;</span> #windowsɱ������</span><br><span class="line"><span class="meta">&gt;</span> taskkill /?</span><br><span class="line"><span class="meta">&gt;</span> 2.�������</span><br><span class="line"><span class="meta">&gt;</span> ping 192.168.31.192 -t</span><br><span class="line"><span class="meta">&gt;</span> ctrl+c��������ctrl+z����</span><br><span class="line"><span class="meta">&gt;</span> 3.ftp/sftp�������</span><br><span class="line"><span class="meta">&gt;</span> FTP ��File Transfer Protocol���ļ�����Э�飩��Ӣ�ļ�ƣ������ļ��Ϊ���Ĵ�Э�顱������Internet�ϵĿ����ļ���˫���䡣ͬʱ����Ҳ��һ��Ӧ�ó���Application�������ڲ�ͬ�Ĳ���ϵͳ�в�ͬ��FTPӦ�ó��򣬶�������ЩӦ�ó�������ͬһ��Э���Դ����ļ�����FTP��ʹ�õ��У��û����������������"����"��Download����"�ϴ�"��Upload����"����"�ļ����Ǵ�Զ�����������ļ����Լ��ļ�����ϣ�"�ϴ�"�ļ����ǽ��ļ����Լ��ļ�����п�����Զ�������ϡ���Internet������˵���û���ͨ���ͻ��������򣨴ӣ�Զ�������ϴ������أ��ļ�</span><br><span class="line"><span class="meta">&gt;</span> server�����:</span><br><span class="line"><span class="meta">&gt;</span> 	windows: xlight��FileZilla-server</span><br><span class="line"><span class="meta">&gt;</span> 	linux:   openssh-server</span><br><span class="line"><span class="meta">&gt;</span> client�ͻ���:</span><br><span class="line"><span class="meta">&gt;</span> 	windows: WinSCP��Xftp��FlashFXP��FileZilla</span><br><span class="line"><span class="meta">&gt;</span> &gt; ���������ʱ��˿�22��ռ���ˡ�</span><br><span class="line"><span class="meta">&gt;</span> &gt; ��Ҫע�����Ҫ�ǵ���ʱ�ر�linux��windows�Ŀͻ��˺ͷ���˵ķ���ǽ��</span><br><span class="line"><span class="meta">&gt;</span> &gt; ��̨����ͨѶ��ʵ����̨������Ӧ�ó�����ͨѶ��</span><br><span class="line"><span class="meta">&gt;</span> &gt; ��������ҪΨһ��������̨�����ķ���ĵĻ���ͨ����������ַ+�˿������ֵ�</span><br><span class="line"><span class="meta">&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>##04.���ݿ����֪ʶ<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">�������ݿ⣺</span><br><span class="line">	��ϵ���ݿ⣺mysql5.7��oracle��sqlserver��informix��sybase��db2��sqlite��</span><br><span class="line">	nosql:     mongodb��redis</span><br><span class="line">��Ҫ����mysql���ݿ⣬�������ݿ��˽�Ϳ����ˡ�</span><br><span class="line">����ˣ�</span><br><span class="line">	&gt;&gt;�������: mysql5.7.21 �ⰲװ��</span><br><span class="line">	  ���ص�ַ��https://www.mysql.com/</span><br><span class="line">	  ���������:mysqld</span><br><span class="line">	&gt;&gt;���ʽ��</span><br><span class="line">	  1.����̨�������̨�ر�</span><br><span class="line">	    ���ſ���̨�رջ����ϵͳ�رն��رա�</span><br><span class="line">	  2.�Է���ʽ����Է���ʽ�رա�</span><br><span class="line">	    ���Ų���ϵͳ���������Ų���ϵͳ�رն��رա�Ҳ�����ֹ����ƹر����</span><br><span class="line">�ͻ��ˣ�</span><br><span class="line">	&gt;&gt;0.mysql������ʾ�ͻ���</span><br><span class="line">		������mysql�С�mysql</span><br><span class="line">	&gt;&gt;1.������ƣ�SQLYog12.5 ��ɫ��/�ⰲװ��</span><br><span class="line">	    ���ص�ַ��http://www.jb51.net/database/598306.html</span><br><span class="line">	&gt;&gt;2.������ƣ�HeidiSQL9.5/MySQL-Front6.0 ��ɫ��/�ⰲװ��</span><br><span class="line">	    ���ص�ַ��https://www.heidisql.com</span><br><span class="line">	    ���ص�ַ��http://www.mysqlfront.de/</span><br><span class="line">	&gt;&gt;3.������ƣ�navicat  ��ɫ��/�ⰲװ��</span><br><span class="line">	    ���ص�ַ��http://www.xz7.com/dir/292904.html</span><br><span class="line">	&gt;&gt;4.������ƣ�MySQLWorkbench ��ɫ��/�ⰲװ��</span><br><span class="line">	    ���ص�ַ��https://www.mysql.com/</span><br><span class="line">��װע�����</span><br><span class="line">	&gt;1.�ַ���ͳһʹ��UTF-8��������������롣</span><br><span class="line">	&gt;2.���ݿ�����Ʋ������ִ�Сд��</span><br><span class="line">SQL���</span><br><span class="line">SQL�������ֳ����������������䣺</span><br><span class="line">���ݶ������ԣ�DDL�������ݲ������ԣ�DML�������ݿ������ԣ�DCL��������������ԣ�TCL����</span><br><span class="line">1.Data Definition Language(DDL) </span><br><span class="line">DDLʹ����������������ɾ�����Ҳ���Զ����������������涨��֮������ӣ��Լ�ʩ�ӱ���Լ���� </span><br><span class="line">	 create  database - ���������ݿ� </span><br><span class="line">      alter  database - �޸����ݿ� </span><br><span class="line">      create table - �����±� </span><br><span class="line">      alter  table - ������ı䣩���ݿ�� </span><br><span class="line">      drop   table - ɾ���� </span><br><span class="line">      create index - ������������������ </span><br><span class="line">      drop   index - ɾ������</span><br><span class="line">2.Data Manipulation Language(DML) </span><br><span class="line">���û�ʵ�ֶ����ݵ�׷�ӡ�ɾ�������¡���ѯ�Ȳ����� </span><br><span class="line">      select      - �����ݿ���л�ȡ���� </span><br><span class="line">      update      - �������ݿ���е����� </span><br><span class="line">      delete      - �����ݿ����ɾ������ </span><br><span class="line">      insert into - �����ݿ���в�������</span><br><span class="line">3.Data Control Language(DCL) </span><br><span class="line">    grant  - ��Ȩ </span><br><span class="line">    revoke - ������Ȩ </span><br><span class="line">    deny   - �ܾ���Ȩ</span><br><span class="line">4.Transaction Control Language(TCL) </span><br><span class="line">    savepoint - ���ñ���� </span><br><span class="line">    rollback  - �ع� </span><br><span class="line">    commit    - �ύ</span><br><span class="line">����</span><br><span class="line">�ַ�������</span><br><span class="line">show variables like &apos;%character%&apos;; </span><br><span class="line">���뱣֤���г�character_set_filesystem��character_sets_dir����֮�������ȫ������UTF8</span><br></pre></td></tr></table></figure></p>
+<p>##05.������<br>Java SE Development Kit(��ƣ�JDK)<br>��ҪӦ�ã�java ����java����javac ����java����<br>��򵥵�������JdK�ǹٷ��ṩ��һЩ���������Լ�һЩ��ִ�еĳ�����Щ���ݾ��������������߼ӿ����ǿ���java����ġ�</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">���أ�</span><br><span class="line">	https://www.oracle.com</span><br><span class="line">��װ:</span><br><span class="line">	ֱ��ʹ�ÿ�ִ���ļ���װ</span><br><span class="line">	�����ⰲװ�汾����װ</span><br><span class="line">	��Ҫע����ǰ�װ·���в��ܰ����ո�������ַ�</span><br><span class="line">����:</span><br><span class="line">	JAVA_HOME</span><br><span class="line">	CLASSPATH</span><br><span class="line">	PATH</span><br><span class="line">���:</span><br><span class="line">	java -version</span><br></pre></td></tr></table></figure>
+<p>##06.��������</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">���õĹ������߰�����maven��gradle��ant</span><br><span class="line">	gradle���ص�ַ��https://gradle.org/releases/</span><br><span class="line">	ant���ص�ַ��http://ant.apache.org/</span><br><span class="line">������Ҫ��mavenΪ��������:</span><br><span class="line">	���롢�����������������������ִ�в��ԡ������ο��ĵ�����װ�����زֿ�</span><br><span class="line">��ѭԭ��Լ����������</span><br><span class="line">	pom.xml</span><br><span class="line">���õİ�.jar��.war��</span><br><span class="line">��װ</span><br><span class="line">	maven���ص�ַ:  http://maven.apache.org/</span><br><span class="line">	����˽���Ĺ���:</span><br><span class="line">		nexus���ص�ַ:  http://www.sonatype.org/nexus/downloads/</span><br><span class="line">����</span><br><span class="line">	M2_HOME</span><br><span class="line">	PATH</span><br><span class="line">settings.xml</span><br><span class="line">���ñ��زֿ�λ�ã�</span><br><span class="line">	&lt;localRepository&gt;d:/webtools/repository&lt;/localRepository&gt;</span><br><span class="line">���û�ȡjar�ķ����������ַ��</span><br><span class="line">&lt;mirrors&gt;</span><br><span class="line">  &lt;mirror&gt;</span><br><span class="line">    &lt;id&gt;alimaven&lt;/id&gt;</span><br><span class="line">    &lt;name&gt;aliyun maven&lt;/name&gt;</span><br><span class="line">    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public/&lt;/url&gt;</span><br><span class="line">    &lt;mirrorOf&gt;central&lt;/mirrorOf&gt;        </span><br><span class="line">  &lt;/mirror&gt;</span><br><span class="line">  &lt;/mirrors&gt;</span><br><span class="line">���</span><br><span class="line">	mvn -version</span><br><span class="line">ʹ��   http://mvnrepository.com/��ַ��ѯ����jar��</span><br><span class="line">���ڵľ��������: http://maven.aliyun.com/nexus/content/groups/public/</span><br><span class="line">�����������:</span><br><span class="line">#�����Ŀ</span><br><span class="line">	mvn package </span><br><span class="line">#ɾ��maven�����м��ļ�</span><br><span class="line">	mvn clean</span><br><span class="line">#��װ�������زֿ�</span><br><span class="line">	mvn install</span><br><span class="line">#���𱾵ذ�����������</span><br><span class="line">	mvn deploy</span><br><span class="line">#ִ�е�Ԫ����</span><br><span class="line">	mvn test</span><br><span class="line">#���ɰ����ĵ�</span><br><span class="line">	mvn javadoc:javadoc</span><br></pre></td></tr></table></figure>
+<h2 id="07-Web������"><a href="#07-Web������" class="headerlink" title="07.Web������"></a>07.Web������</h2><p>tomcat��jetty��tomee��nginx��apache httpd��jboss��Tengine��Lighttpd��IIS��<br>Zeus��Resin��BEA WebLogic ��IBM WebSphere��</p>
+<table>
+<thead>
+<tr>
+<th>��������</th>
+<th>���ص�ַ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>tomcat</strong></td>
+<td><a href="http://tomcat.apache.org/" target="_blank" rel="noopener">http://tomcat.apache.org/</a></td>
+</tr>
+<tr>
+<td>jetty</td>
+<td><a href="http://www.eclipse.org/jetty/" target="_blank" rel="noopener">http://www.eclipse.org/jetty/</a></td>
+</tr>
+<tr>
+<td>tomee</td>
+<td><a href="http://tomee.apache.org/" target="_blank" rel="noopener">http://tomee.apache.org/</a></td>
+</tr>
+<tr>
+<td><strong>nginx</strong></td>
+<td><a href="http://nginx.org/" target="_blank" rel="noopener">http://nginx.org/</a>                    <a href="http://nginx.org/en/download.html" target="_blank" rel="noopener">http://nginx.org/en/download.html</a></td>
+</tr>
+<tr>
+<td>apache httpd</td>
+<td><a href="http://httpd.apache.org/" target="_blank" rel="noopener">http://httpd.apache.org/</a></td>
+</tr>
+<tr>
+<td>jboss</td>
+<td><a href="http://jbossas.jboss.org/" target="_blank" rel="noopener">http://jbossas.jboss.org/</a></td>
+</tr>
+</tbody>
+</table>
+<p>Web��Ŀ�Ľṹ:</p>
+<p>1.webappĿ¼�±�����web.xml�ļ�������Ļ�����ᱨ��.</p>
+<p>2.��servlet3.0֮�󣬿��Բ���Ҫweb.xml.</p>
+<p>3.��JavaWeb����������Ҫweb��������������.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">tomcat������Ŀ�ķ�ʽ</span><br><span class="line">1.ֱ�Ӱ���Ŀ��Ӧ���ļ��л�war���ŵ�tomcat��webapps�ļ�����.</span><br><span class="line">2.ͨ���޸�conf/server.xml�ļ���host������Context�����á�</span><br><span class="line">	&lt;Context path=&quot;/sms4&quot; docBase=&quot;D:/workspace/sms4/WebRoot&quot;/&gt;</span><br><span class="line">	&lt;Context path=&quot;/myapp&quot; reloadable=&quot;true&quot; docBase=&quot;D:\myapp&quot; workDir=&quot;D:/myapp/work&quot;/&gt;</span><br><span class="line">	path	������·����</span><br><span class="line">	docBase ��Ӧ�ó��������·����</span><br><span class="line">	workDir �����Ӧ�õĹ���Ŀ¼���������ʱ���ɵ������Ӧ����ص��ļ���</span><br><span class="line">	debug 	�����趨debug level,  0��ʾ�ṩ���ٵ���Ϣ��9��ʾ�ṩ������Ϣ</span><br><span class="line">	privileged����Ϊtrue��ʱ�򣬲�����Tomcat��WebӦ��ʹ�������ڵ�Servlet</span><br><span class="line">	reloadable ���Ϊtrue����tomcat���Զ����Ӧ�ó����/WEB-INF/lib ��/WEB-INF/classesĿ¼�ı仯���Զ�װ���µ�Ӧ�ó��򣬿����ڲ�����tomcat������¸ı�Ӧ�ó���ʵ���Ȳ���</span><br><span class="line">	antiResourceLocking��antiJARLocking  �Ȳ�������Ҫ���õĲ�����Ĭ��false���������ĳ��webapp����ʱ��Tomcat�����ܰѾɵ�webapp��ȫɾ����ͨ��������WEB-INF/lib�µ�ĳ��jar��������ر�Tomcat����ɾ������͵����Զ�����ʧ�ܡ�����Ϊtrue��Tomcat�����ж�Ӧ��webappʱ�������Ӧ��Դ�ļ���jar�ļ����Ƶ�һ����ʱĿ¼�</span><br><span class="line">3.ͨ��tomcat��������������в��𡣱�����Ҫ����������װ</span><br></pre></td></tr></table></figure>
+<p>##08.���ɿ�������(Integrated Development Environment,���IDE)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line">eclipse��vscode��sts��netbean��IntelliJ IDEA��JCreator��Android Studio��myeclipse</span><br><span class="line">���̳���Ҫ����eclipseΪ���������⣺</span><br><span class="line">1.eclipse:</span><br><span class="line">�Ⱦ�������jdk��maven��tomcat��װ�ɹ�����֤��</span><br><span class="line">���ص�ַ��https://www.eclipse.org/downloads/</span><br><span class="line">�汾ѡ��Eclipse IDE for Java EE Developers ѡ��64λ�汾��ѹ����</span><br><span class="line">eclipse������:</span><br><span class="line">windows-&gt;preferences-&gt;general-&gt;appearance ��������Ϊwindows classic</span><br><span class="line">windows-&gt;preferences-&gt;general-&gt;appearance-&gt;color and font-&gt;basic ��������ΪCourier New 12</span><br><span class="line">windows-&gt;preferences-&gt;general-&gt;workspace  �����ַ���ΪUTF-8</span><br><span class="line">windows-&gt;preferences-&gt;gradle ����gradle��װ·���Լ����زֿ�·��</span><br><span class="line">windows-&gt;preferences-&gt;java-&gt;editor-&gt;Content Assist ���ó������ܸ�֪�Ŀ�ͷ�ַ�Ϊ26���ַ�</span><br><span class="line">windows-&gt;preferences-&gt;maven-&gt;Installations ����maven�İ�װ·��</span><br><span class="line">windows-&gt;preferences-&gt;maven-&gt;Users Settings ����maven�������ļ�</span><br><span class="line">windows-&gt;preferences-&gt;server-&gt;runtime environments ����ʹ�õ�tomcat</span><br><span class="line">windows-&gt;preferences-&gt;validation ȥ����֤���ӿ����ٶ�</span><br><span class="line">windows-&gt;preferences-&gt;web-&gt;Jsp Files ����jsp�ļ��ַ���ΪUTF-8</span><br><span class="line">����Ĭ�ϴ򿪵���ͼ��</span><br><span class="line">windows-&gt;show view-&gt;console ���������̨</span><br><span class="line">windows-&gt;show view-&gt;problems �����ⴰ��</span><br><span class="line">windows-&gt;show view-&gt;bookmarks ��ǩ����</span><br><span class="line">windows-&gt;show view-&gt;Project explorer ���������</span><br><span class="line">windows-&gt;show view-&gt;junit 		��Ԫ���Դ���</span><br><span class="line">windows-&gt;show view-&gt;servers 	���÷���������</span><br><span class="line">windows-&gt;show view-&gt;properties 	�������ô���</span><br><span class="line">���</span><br><span class="line">workspace��	����������Ŀ���߹��̵ļ��ϴ���ļ���</span><br><span class="line">project��	����   1��1�����ļ��У����̿��Բ�����workspace�ļ����С�</span><br><span class="line">view��		��ͼ</span><br><span class="line">plugin��      ��� </span><br><span class="line"></span><br><span class="line">eclipse��ǿ��</span><br><span class="line">	svn�����</span><br><span class="line">		http://www.eclipse.org/subversive/latest-releases.php</span><br><span class="line">		http://subversion.apache.org</span><br><span class="line">	�����������http://flowable.org/designer/update/</span><br><span class="line">	���Ա༭����Properties Editor</span><br><span class="line">		propedit��https://zh.osdn.net/projects/propedit/releases/</span><br><span class="line">�����װ��ʽ:</span><br><span class="line">	A.����������װ��</span><br><span class="line">	B.ֱ��ͨ�����ϵ�ַ��������,������eclipse marketplace���ذ�װ</span><br><span class="line">	  help-&gt;install new software...</span><br><span class="line">	  help-&gt;eclipse marketplace</span><br><span class="line">	C.ֱ�ӷ���dropinsĿ¼����</span><br><span class="line">	</span><br><span class="line">���ж�أ�</span><br><span class="line">	help-&gt;eclipse about-&gt;installation details-&gt;ѡ����Ҫж�صĲ��,ִ��uninstall</span><br><span class="line">�򿪹����ļ���</span><br><span class="line">	File-&gt;import-&gt;maven-&gt;existing Maven Projects �����Ѿ����ڵ�maven����</span><br><span class="line">	File-&gt;New-&gt;other-&gt;maven-&gt;Maven project �½�maven����</span><br><span class="line">2.vscode</span><br><span class="line">	���ص�ַ��https://code.visualstudio.com/</span><br><span class="line">	��������Ҫ���ã���Ҫ������ΰ�װ���</span><br><span class="line">	��Ҫ������ǰ�˿����ģ�html�༭��js�ļ��༭������nodejs�Ŀ���</span><br><span class="line">3.Spring Tool Suite(���sts)</span><br><span class="line">	���ص�ַ��http://spring.io</span><br><span class="line">	���ò�����ͬeclipse</span><br></pre></td></tr></table></figure>
+<p>##09.�汾������<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line">�汾����ϵͳ����:</span><br><span class="line">	�汾������һ�ּ�¼һ��������ļ����ݱ仯���Ա㽫�������ض��汾�޶������ϵͳ�� �ڱ�����չʾ�������У����ǶԱ��������Դ������ļ����汾���ƣ���ʵ���ϣ�����Զ��κ����͵��ļ����а汾���ơ�</span><br><span class="line">�Ŷӿ�����</span><br><span class="line">	����1�������Ŷ�6���ˣ�1����ǰ��ҳ�棬1�������ԣ�1����������ƣ�3�������뿪������ô�������Э��Ч�ʲŻ�Ƚϸ��أ��ĵ�ͳһ���ܡ�Դ����ͳһ���ܡ�</span><br><span class="line">	</span><br><span class="line">�ͻ��ˣ�git��svn</span><br><span class="line">����ˣ�gogs/gitlab��VisualSVN Server</span><br><span class="line">�����ı��磺vss�����ں���ʹ���ˡ�</span><br><span class="line">1.����svn������Դ������ĵ�����</span><br><span class="line">1.1.svn�ͻ��˰�װ</span><br><span class="line">	���ص�ַ��https://tortoisesvn.net/downloads.html</span><br><span class="line">	��Ҫ��װeclipse���subclipse</span><br><span class="line">1.2.svn���������: https://www.visualsvn.com/</span><br><span class="line">svn����ʹ�ã�</span><br><span class="line">	1.svn����������ķ�������Դ�����¡����������</span><br><span class="line">	2.svn���ӣ������������ļ����汾�����</span><br><span class="line">	3.svn�ύ���ѱ��ص��޸ĵĴ����ύ����������ȥ������������û���</span><br><span class="line">	4.svn���£����������ϵ�Դ���뱻�޸�֮�󣬱��ش����޸�֮ǰ���£���֤�ͱ��غͷ�����һ��</span><br><span class="line">	��Щ�ļ�����Ҫ�ϴ����汾���������ⲿ���ļ����ǳ�Ϊ�����ļ���</span><br><span class="line">	5.��ͻ��ô�죿</span><br><span class="line">		������ͬʱ��ͬ1���ļ������޸Ĳ��ύ�����ܾͻ���ֳ�ͻ�����ȸ��£�Ȼ���˹��޸ĳ�ͻ�����ݣ�</span><br><span class="line">	�޸ĺ�֮�����ύ����ʱ����Ҫ�����������</span><br><span class="line">		���������»��Զ��ϲ�����ϵͳ��֪����ô�ϲ���ʱ��ͻᱨ��ͻ��</span><br><span class="line">	6.�鿴�޸ĵ���ʷ��¼��</span><br><span class="line">	7.branch��֧��tag��ǩ��trunk���ɣ�</span><br><span class="line">	8.������:svn��ͷ</span><br><span class="line">		svn checkout https://win10server/svn/zdsoft/trunk</span><br><span class="line">		svn commit</span><br><span class="line">		svn update</span><br><span class="line">		svn add </span><br><span class="line">		svn help</span><br><span class="line">	�����������汾�ֿ�</span><br><span class="line">2.����git������Դ�������</span><br><span class="line">���õĿ�Դ��վgit�����ַ</span><br><span class="line">	https://gitee.com</span><br><span class="line">	https://github.com</span><br><span class="line">2.1.git�ͻ������أ�https://git-scm.com/download/win</span><br><span class="line">	���ذ汾��64-bit Git for Windows Portable</span><br><span class="line">	���û���������</span><br><span class="line">		GIT_HOME</span><br><span class="line">		PATH</span><br><span class="line">		LANG=zh_CN.UTF-8</span><br><span class="line">	�����ļ�:</span><br><span class="line">		mingw64/etc/.gitignore</span><br><span class="line">		mingw64/etc/gitconfig</span><br><span class="line">	eclipse������git��Ĭ��eclipse�Ѿ��Դ���git�Ĳ��������Ҫ��װ</span><br><span class="line">	ͼ�οͻ���: https://tortoisegit.org/download/</span><br><span class="line">2.2.git��������أ�https://gogs.io/</span><br><span class="line">gitʹ�ã�</span><br><span class="line">#1.��¡�汾��</span><br><span class="line">git clone https://gitee.com/qingshan/teaching.git</span><br><span class="line">#2.�������а汾</span><br><span class="line">git pull -v</span><br><span class="line">#3.�ѱ����޸�����汾�����ݴ����У�</span><br><span class="line">git add .</span><br><span class="line">#4.�ύ�����޸�</span><br><span class="line">git commit -am &quot;����xxx����&quot;</span><br><span class="line">#5.�ϴ������޸�(����)</span><br><span class="line">git push</span><br><span class="line">#6.�л���֧</span><br><span class="line">git checkout master</span><br><span class="line">#7.�Ե�ǰ��֧Ϊ�������½���֧</span><br><span class="line">git branch dev</span><br><span class="line">#8.�½���ǩ</span><br><span class="line">git tag v1.0.0 -m &quot;�����汾&quot;</span><br><span class="line">#9.��ʾ�汾����״̬</span><br><span class="line">git status</span><br><span class="line">#10.��ʾ��֧״̬</span><br><span class="line">git branch -ra</span><br><span class="line">#11.��ʾԶ�̰汾���ַ</span><br><span class="line">git remote -v</span><br><span class="line">#12.��ʼ��������ĿΪ�汾����</span><br><span class="line">git init</span><br><span class="line">��Կ˽Կ,��ȡ����������ʹ����ʱ����Ҫ��������</span><br><span class="line">#���ɹ�Կ˽Կ</span><br><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure></p>
+<p>##10.Linux�ն˹���<br>xshell��putty��SecureCRT �൱��windowsԶ������(mstsc)</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>�鿴��ǰĿ¼</span><br><span class="line">pwd</span><br><span class="line"><span class="meta">#</span>�ı䵱ǰĿ¼(���·���;���·��)</span><br><span class="line">cd</span><br><span class="line"><span class="meta">#</span>�鿴��ǰĿ¼�µ��ļ����ļ���</span><br><span class="line">dir -a</span><br><span class="line">ls -l</span><br><span class="line"><span class="meta">#</span>�����ļ����ļ���</span><br><span class="line">mkdir</span><br><span class="line"><span class="meta">#</span>ɾ���ļ����ļ���</span><br><span class="line">rm -rf �ļ����ļ���</span><br><span class="line"><span class="meta">#</span>�½�һ�����ļ�</span><br><span class="line">touch readme.txt</span><br><span class="line"><span class="meta">#</span>�鿴�ļ�����</span><br><span class="line">more readme.txt</span><br><span class="line">tail readme.txt</span><br><span class="line">head readme.txt</span><br><span class="line"><span class="meta">#</span>�ƶ��ļ����߸����ļ�</span><br><span class="line">mv readme.txt readme.md</span><br><span class="line"><span class="meta">#</span>�����ļ�</span><br><span class="line">cp readme.txt /data</span><br><span class="line"><span class="meta">#</span>�༭�ļ�</span><br><span class="line">vi readme.txt</span><br><span class="line">����ģʽ�ͱ༭ģʽ֮���л���esc</span><br><span class="line">i ��insert ���� ������˱༭ģʽ</span><br><span class="line">a : append ׷�ӣ�����˱༭ģʽ</span><br><span class="line">x : ɾ����ǰ�ַ�</span><br><span class="line">dd : ɾ����ǰ��</span><br><span class="line">w : write ����</span><br><span class="line">q : quit �˳�vi�༭��</span><br><span class="line">:wq ���沢�Ƴ�</span><br><span class="line">:q! �������˳�</span><br><span class="line"><span class="meta">#</span>���̲鿴</span><br><span class="line">ps -ef|grep sshd </span><br><span class="line"><span class="meta">#</span>�ܵ�����</span><br><span class="line">| �ѹܵ�ǰ��������Ϊ�ܵ����������</span><br><span class="line"><span class="meta">#</span>�ض������</span><br><span class="line"><span class="meta">&gt;</span>  ��ǰ����������������ת������ָ�����ļ��С��½��ļ�</span><br><span class="line"><span class="meta">&gt;</span>&gt; ��ǰ����������������ת������ָ�����ļ��С�׷���ļ�</span><br><span class="line"><span class="meta">#</span>��ls -l���������������ļ�test.md�У�����ļ������� ���½��ļ�����������򸲸ǡ�</span><br><span class="line">ls -l &gt; test.md</span><br><span class="line"><span class="meta">#</span>��ls -l���������������ļ�test.md�У�����ļ������ڣ����½��ļ����������׷�����ļ��ĺ��档</span><br><span class="line">ls -l &gt;&gt; abc.md</span><br><span class="line">�ж��ļ��ǲ�����ִ�У�</span><br><span class="line">r:��</span><br><span class="line">w:д</span><br><span class="line">x:ִ��</span><br><span class="line">�ֳ�3�飺��������</span><br><span class="line">�ļ�����+�Լ���Ȩ�ޡ�ͬ���û���Ȩ�ޡ������û���Ȩ��</span><br><span class="line">chmod u+x readme.md ���Լ�����ִ��Ȩ��</span><br><span class="line">chmod g+x readme.md ��ͬ������ִ��Ȩ��</span><br><span class="line">chmod o+x readme.md �������û�����ִ��Ȩ��</span><br><span class="line">linuxһ��������ҪҪ��ִ�У����뵱ǰ�û�������ִ��Ȩ�ޡ��ļ�������Ҳ���ܹ�ִ�еġ�</span><br></pre></td></tr></table></figure>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://cqyhm.github.io/2018/02/11/JavaWeb基础课程系列前传/" data-id="cjdicmze00001jkei6gm59a5d" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2018/02/11/JavaWeb基础课程系列后传/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            JavaWeb基础课程系列后传
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/11/JavaWeb基础课程系列后传/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/11/JavaWeb基础课程系列后传/" class="title">JavaWeb基础课程系列后传</a></p>
+                            <p class="item-date"><time datetime="2018-02-11T05:27:37.000Z" itemprop="datePublished">2018-02-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/11/JavaWeb基础课程系列前传/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/11/JavaWeb基础课程系列前传/" class="title">JavaWeb�����γ�ϵ��ǰ��</a></p>
+                            <p class="item-date"><time datetime="2018-02-11T05:27:37.000Z" itemprop="datePublished">2018-02-11</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">二月 2018</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2018 cqyhm</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://cqyhm.github.io/2018/02/11/JavaWeb基础课程系列前传/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
